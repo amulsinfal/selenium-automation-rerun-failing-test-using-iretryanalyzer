@@ -25,5 +25,4 @@ public class RetryTests implements IRetryAnalyzer {
 		}
 		return false;
 	}
-
 }

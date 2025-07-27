@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Automation Suite (Reading data using Dataproviders)">
+<suite name="Automation Suite (Re-running failing test using IRetryAnalyzer)">
 	<listeners>
 		<listener class-name="listeners.ReportListeners" />
 		<listener class-name="listeners.RetryTransformer" />
