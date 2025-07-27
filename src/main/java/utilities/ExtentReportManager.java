@@ -1,5 +1,8 @@
 package utilities;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 
@@ -8,7 +11,7 @@ public class ExtentReportManager {
 	public static String extentReportFile;
 
 	public static ExtentReports setupExtentReport() {
-		extentReportFile = System.getProperty("user.dir")+"\\reports\\ExecutionReport.html";
+		extentReportFile = System.getProperty("user.dir")+"\\reports\\ExecutionReport_"+ new SimpleDateFormat("ddMMyyyy_HHmmss").format(new Date()) +".html";
 		
 		ExtentSparkReporter sparkReporter = new ExtentSparkReporter(extentReportFile);
 		sparkReporter.config().setReportName("Test Automation report");

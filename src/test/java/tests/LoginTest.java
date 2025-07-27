@@ -33,7 +33,7 @@ public class LoginTest extends BaseTest {
 		assertEquals(loginPage.getErrorText(), "Epic sadface: Username and password do not match any user in this service" ,"Error message on the Login Page is incorrect.");
 	}
 	
-	@Test(priority = 3, groups = {"Regression"}, description = "Test to verify login with blank credentials.")
+	@Test(priority = 4, groups = {"Regression"}, description = "Test to verify login with blank credentials.")
 	public void testLoginWithBlankCredentials() {
 		LoginPage loginPage = new LoginPage(driver);
 		ProductsPage productsPage = loginPage.login("","");
