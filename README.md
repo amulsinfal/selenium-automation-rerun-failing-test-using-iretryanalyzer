@@ -33,6 +33,19 @@ Automated test execution isn’t always perfect — occasional flakiness can res
 
 ---
 
+### Reports:
+<img width="1920" height="1032" alt="06_Reports1" src="https://github.com/user-attachments/assets/e6d7ece0-a1cb-452f-bf54-9fd53306a4b4" />  
+<img width="1920" height="1032" alt="06_Reports2" src="https://github.com/user-attachments/assets/7b059b2f-f82a-4ece-a6df-9cc1840d5a19" />  
+<img width="1920" height="1032" alt="06_Reports3" src="https://github.com/user-attachments/assets/59278fa6-17cd-4cc6-9a1f-f3f517e638c1" />  
+<img width="1920" height="1032" alt="06_Reports4" src="https://github.com/user-attachments/assets/fec46fb3-3312-41ec-a6bd-46a9314327ef" />  
+
+---
+
+### Logs:
+<img width="1920" height="1009" alt="07_Logs" src="https://github.com/user-attachments/assets/d935e681-4581-4fee-9f07-47227ddcfe32" />  
+
+---
+
 ### ✅ Benefits:
 - Boosts trust in automation by minimizing flaky failures  
 - Makes retry behavior configurable and reusable  
