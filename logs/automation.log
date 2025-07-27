@@ -1,0 +1,95 @@
+[INFO ] 2025-07-27 16:53:09.483 [main] listeners.ReportListeners::onStart::70 - Test Suite execution started.
+[INFO ] 2025-07-27 16:53:11.905 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-27 16:53:11.928 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-27 16:53:11.999 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-27 16:53:12.000 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-27 16:53:12.309 [main] listeners.ReportListeners::onTestStart::27 - Test case 'testLoginWithValidCredentials' execution started.
+[INFO ] 2025-07-27 16:53:12.317 [main] listeners.ReportListeners::onTestStart::28 - Test description - 'Test to verify login with valid credentials.'.
+[INFO ] 2025-07-27 16:53:13.011 [main] pages.LoginPage::login::30 - Entered 'standard_user' in the username textbox.
+[INFO ] 2025-07-27 16:53:13.154 [main] pages.LoginPage::login::33 - Entered 'secret_sauce' in the password textbox.
+[INFO ] 2025-07-27 16:53:13.289 [main] pages.LoginPage::login::36 - Clicked on the Login button.
+[INFO ] 2025-07-27 16:53:13.356 [main] pages.ProductsPage::isPageDisplayed::46 - Products page displayed.
+[INFO ] 2025-07-27 16:53:13.374 [main] listeners.ReportListeners::onTestSuccess::38 - Test case 'testLoginWithValidCredentials' execution Passed.
+[INFO ] 2025-07-27 16:53:14.686 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-27 16:53:14.709 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-27 16:53:14.766 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-27 16:53:14.769 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-27 16:53:15.350 [main] listeners.ReportListeners::onTestStart::27 - Test case 'testLoginWithLockedCredentials' execution started.
+[INFO ] 2025-07-27 16:53:15.350 [main] listeners.ReportListeners::onTestStart::28 - Test description - 'Test to verify login with locked credentials.'.
+[INFO ] 2025-07-27 16:53:15.355 [main] listeners.ReportListeners::onTestSkipped::60 - Test case 'testLoginWithLockedCredentials' execution skipped.
+[INFO ] 2025-07-27 16:53:15.356 [main] listeners.ReportListeners::onTestSkipped::61 - Exception occured: org.testng.SkipException: This test is Intentionally skipped for ITestListener test.
+[INFO ] 2025-07-27 16:53:16.901 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-27 16:53:16.928 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-27 16:53:16.985 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-27 16:53:16.987 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-27 16:53:17.484 [main] listeners.ReportListeners::onTestStart::27 - Test case 'testLoginWithBlankCredentials' execution started.
+[INFO ] 2025-07-27 16:53:17.485 [main] listeners.ReportListeners::onTestStart::28 - Test description - 'Test to verify login with blank credentials.'.
+[INFO ] 2025-07-27 16:53:17.641 [main] pages.LoginPage::login::30 - Entered '' in the username textbox.
+[INFO ] 2025-07-27 16:53:17.751 [main] pages.LoginPage::login::33 - Entered '' in the password textbox.
+[INFO ] 2025-07-27 16:53:17.922 [main] pages.LoginPage::login::36 - Clicked on the Login button.
+[INFO ] 2025-07-27 16:53:18.016 [main] pages.LoginPage::getErrorText::69 - Error message 'Epic sadface: Username is required' is displayed on Login page.
+[INFO ] 2025-07-27 16:53:18.027 [main] listeners.ReportListeners::onTestSkipped::60 - Test case 'testLoginWithBlankCredentials' execution skipped.
+[INFO ] 2025-07-27 16:53:18.028 [main] listeners.ReportListeners::onTestSkipped::61 - Exception occured: java.lang.AssertionError: Error message on the Login Page is incorrect. expected [Username Required] but found [Epic sadface: Username is required]
+[INFO ] 2025-07-27 16:53:19.335 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-27 16:53:19.368 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-27 16:53:19.429 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-27 16:53:19.429 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-27 16:53:20.070 [main] listeners.ReportListeners::onTestStart::27 - Test case 'testLoginWithBlankCredentials' execution started.
+[INFO ] 2025-07-27 16:53:20.071 [main] listeners.ReportListeners::onTestStart::28 - Test description - 'Test to verify login with blank credentials.'.
+[INFO ] 2025-07-27 16:53:20.249 [main] pages.LoginPage::login::30 - Entered '' in the username textbox.
+[INFO ] 2025-07-27 16:53:20.379 [main] pages.LoginPage::login::33 - Entered '' in the password textbox.
+[INFO ] 2025-07-27 16:53:20.502 [main] pages.LoginPage::login::36 - Clicked on the Login button.
+[INFO ] 2025-07-27 16:53:20.584 [main] pages.LoginPage::getErrorText::69 - Error message 'Epic sadface: Username is required' is displayed on Login page.
+[INFO ] 2025-07-27 16:53:20.585 [main] listeners.ReportListeners::onTestSkipped::60 - Test case 'testLoginWithBlankCredentials' execution skipped.
+[INFO ] 2025-07-27 16:53:20.585 [main] listeners.ReportListeners::onTestSkipped::61 - Exception occured: java.lang.AssertionError: Error message on the Login Page is incorrect. expected [Username Required] but found [Epic sadface: Username is required]
+[INFO ] 2025-07-27 16:53:21.881 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-27 16:53:21.903 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-27 16:53:21.954 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-27 16:53:21.954 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-27 16:53:22.652 [main] listeners.ReportListeners::onTestStart::27 - Test case 'testLoginWithBlankCredentials' execution started.
+[INFO ] 2025-07-27 16:53:22.652 [main] listeners.ReportListeners::onTestStart::28 - Test description - 'Test to verify login with blank credentials.'.
+[INFO ] 2025-07-27 16:53:22.813 [main] pages.LoginPage::login::30 - Entered '' in the username textbox.
+[INFO ] 2025-07-27 16:53:22.936 [main] pages.LoginPage::login::33 - Entered '' in the password textbox.
+[INFO ] 2025-07-27 16:53:23.081 [main] pages.LoginPage::login::36 - Clicked on the Login button.
+[INFO ] 2025-07-27 16:53:23.179 [main] pages.LoginPage::getErrorText::69 - Error message 'Epic sadface: Username is required' is displayed on Login page.
+[INFO ] 2025-07-27 16:53:23.180 [main] listeners.ReportListeners::onTestSkipped::60 - Test case 'testLoginWithBlankCredentials' execution skipped.
+[INFO ] 2025-07-27 16:53:23.180 [main] listeners.ReportListeners::onTestSkipped::61 - Exception occured: java.lang.AssertionError: Error message on the Login Page is incorrect. expected [Username Required] but found [Epic sadface: Username is required]
+[INFO ] 2025-07-27 16:53:24.666 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-27 16:53:24.684 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-27 16:53:24.732 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-27 16:53:24.733 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-27 16:53:25.310 [main] listeners.ReportListeners::onTestStart::27 - Test case 'testLoginWithBlankCredentials' execution started.
+[INFO ] 2025-07-27 16:53:25.310 [main] listeners.ReportListeners::onTestStart::28 - Test description - 'Test to verify login with blank credentials.'.
+[INFO ] 2025-07-27 16:53:25.480 [main] pages.LoginPage::login::30 - Entered '' in the username textbox.
+[INFO ] 2025-07-27 16:53:25.625 [main] pages.LoginPage::login::33 - Entered '' in the password textbox.
+[INFO ] 2025-07-27 16:53:25.756 [main] pages.LoginPage::login::36 - Clicked on the Login button.
+[INFO ] 2025-07-27 16:53:25.844 [main] pages.LoginPage::getErrorText::69 - Error message 'Epic sadface: Username is required' is displayed on Login page.
+[INFO ] 2025-07-27 16:53:25.846 [main] listeners.ReportListeners::onTestFailure::46 - Test case 'testLoginWithBlankCredentials' execution failed.
+[INFO ] 2025-07-27 16:53:25.846 [main] listeners.ReportListeners::onTestFailure::47 - Exception occured: java.lang.AssertionError: Error message on the Login Page is incorrect. expected [Username Required] but found [Epic sadface: Username is required]
+[INFO ] 2025-07-27 16:53:26.017 [main] listeners.ReportListeners::onTestFailure::49 - Screenshot saved at: C:\Software_Testing\Automation_Testing\automationSnippits\eclipse-workspace\selenium-automation-rerun-failing-test-using-iretryanalyzer\screenshots\Screenshot_testLoginWithBlankCredentials_27072025_165326.png
+[INFO ] 2025-07-27 16:53:27.273 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-27 16:53:27.290 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-27 16:53:27.359 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-27 16:53:27.359 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-27 16:53:27.978 [main] listeners.ReportListeners::onTestStart::27 - Test case 'testLoginWithInvalidCredentials' execution started.
+[INFO ] 2025-07-27 16:53:27.978 [main] listeners.ReportListeners::onTestStart::28 - Test description - 'Test to verify login with invalid credentials.'.
+[INFO ] 2025-07-27 16:53:28.188 [main] pages.LoginPage::login::30 - Entered 'Invalid_user' in the username textbox.
+[INFO ] 2025-07-27 16:53:28.332 [main] pages.LoginPage::login::33 - Entered 'Invalid_Pass' in the password textbox.
+[INFO ] 2025-07-27 16:53:28.484 [main] pages.LoginPage::login::36 - Clicked on the Login button.
+[INFO ] 2025-07-27 16:53:28.577 [main] pages.LoginPage::getErrorText::69 - Error message 'Epic sadface: Username and password do not match any user in this service' is displayed on Login page.
+[INFO ] 2025-07-27 16:53:28.578 [main] listeners.ReportListeners::onTestSuccess::38 - Test case 'testLoginWithInvalidCredentials' execution Passed.
+[INFO ] 2025-07-27 16:53:29.888 [main] factory.DriverFactory::initializeDriver::29 - Chrome browser launched.
+[INFO ] 2025-07-27 16:53:29.932 [main] factory.DriverFactory::initializeDriver::32 - Implicit wait set to 10 seconds.
+[INFO ] 2025-07-27 16:53:30.010 [main] factory.DriverFactory::initializeDriver::34 - Webdriver initialised successfully.
+[INFO ] 2025-07-27 16:53:30.011 [main] base.BaseTest::setup::22 - Navigated to url: https://www.saucedemo.com
+[INFO ] 2025-07-27 16:53:30.640 [main] listeners.ReportListeners::onTestStart::27 - Test case 'testLogout' execution started.
+[INFO ] 2025-07-27 16:53:30.641 [main] listeners.ReportListeners::onTestStart::28 - Test description - 'Test to verify logout functionality.'.
+[INFO ] 2025-07-27 16:53:30.836 [main] pages.LoginPage::login::30 - Entered 'standard_user' in the username textbox.
+[INFO ] 2025-07-27 16:53:30.985 [main] pages.LoginPage::login::33 - Entered 'secret_sauce' in the password textbox.
+[INFO ] 2025-07-27 16:53:31.210 [main] pages.LoginPage::login::36 - Clicked on the Login button.
+[INFO ] 2025-07-27 16:53:31.390 [main] pages.ProductsPage::logout::29 - Clicked on the Menu button.
+[INFO ] 2025-07-27 16:53:32.126 [main] pages.ProductsPage::logout::32 - Clicked on the Logout link.
+[INFO ] 2025-07-27 16:53:32.157 [main] pages.LoginPage::isPageDisplayed::50 - Login page displayed.
+[INFO ] 2025-07-27 16:53:32.157 [main] listeners.ReportListeners::onTestSuccess::38 - Test case 'testLogout' execution Passed.
+[INFO ] 2025-07-27 16:53:32.366 [main] listeners.ReportListeners::onFinish::76 - Test Suite execution ended.
+[INFO ] 2025-07-27 16:53:32.974 [main] listeners.ReportListeners::onFinish::78 - ExtentReport generated.
