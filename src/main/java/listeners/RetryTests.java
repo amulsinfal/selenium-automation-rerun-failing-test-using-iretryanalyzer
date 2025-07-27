@@ -7,14 +7,13 @@ import org.testng.ITestResult;
 
 import com.aventstack.extentreports.Status;
 
-import pages.LoginPage;
 import utilities.ConfigReader;
 
 public class RetryTests implements IRetryAnalyzer {
 	
 	private static final Logger log = LogManager.getLogger(RetryTests.class);
 	private static final int MaxRetryCount =  Integer.parseInt(ConfigReader.getValue("QA", "maxRetryCount"));
-	private static int retryCount = 1;
+	private int retryCount = 1;
 
 	@Override
 	public boolean retry(ITestResult result) {
